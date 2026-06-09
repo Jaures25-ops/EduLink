@@ -1,0 +1,10 @@
+# À la racine de edulink-workspace, crée un fichier .gitignore
+cat <<EOT >> .gitignore
+node_modules/
+.next/
+.env
+.env.local
+dist/
+*.local
+.DS_Store
+EOT
